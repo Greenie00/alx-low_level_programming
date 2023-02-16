@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * A program that prints (Programming is like building a multilingual puzzle)
+ * main - Entry point
+ * Result: Always a success
  */
 
 int main(void)
