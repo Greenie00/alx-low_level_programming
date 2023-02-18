@@ -8,14 +8,13 @@
 
 int main(void)
 {
-	char alphab[26] = 'abcdefghijklmnopqrstuvwxyz';
+	char g = 'a';
 
-	int g = 0;
-
-	for (g < 26; i++)
+	while (g <= 'z')
 	{
-		putchar(alphab[1]);
-		putchar("\n")
+		putchar(g);
+		g++
 	}
+	putchar("\n")
 	return (0)
 }
