@@ -13,8 +13,8 @@ int main(void)
 	while (g <= 'z')
 	{
 		if ((g != 'e' && g != 'q') && g <= 'z')
-			putchar(g)
-		g++
+			putchar(g);
+		g++;
 	}
 	putchar('\n');
 	return (0);
