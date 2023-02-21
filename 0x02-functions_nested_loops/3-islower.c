@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower: Returns 1 if small alphabet is found else returns 0
+ * _islower - Checks for lowercasecharacters
  *
  * @c: is argument taken by _islower function
  *
- * Result: 0 and 1
+ * Result: 1 for lowercase characters and 0 for anything else
  */
 
 int _islower(int c)
