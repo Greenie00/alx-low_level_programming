@@ -3,7 +3,7 @@
 /**
  * _islower - Returns 1 if small alphabet is found else returns 0
  *
- * c - is argument taken by _islower function
+ * @c - is argument taken by _islower function
  *
  * Result: 0 and 1
  */
