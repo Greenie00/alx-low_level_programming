@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Returns 1 if small alphabet is found else returns 0
+ * _islower: Returns 1 if small alphabet is found else returns 0
  *
  * @c: is argument taken by _islower function
  *
