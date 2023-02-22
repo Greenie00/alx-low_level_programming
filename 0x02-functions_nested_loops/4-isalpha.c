@@ -2,9 +2,9 @@
 
 /**
  * _isalpha - Check for alphabetic character
- * c: Argument to be checked
+ * @c: Argument to be checked
  *
- * Result: Return 1 for alphabetic character and 0 for anything else
+ * Return: Return 1 for alphabetic character and 0 for anything else
  */
 
 int _isalpha(int c)
