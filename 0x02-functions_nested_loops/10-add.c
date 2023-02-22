@@ -3,7 +3,7 @@
 /**
  * add - Add both arguments
  * @g: first argument
- * @h: Second argument 
+ * @h: Second argument
  *
  * Return: 0
  */
