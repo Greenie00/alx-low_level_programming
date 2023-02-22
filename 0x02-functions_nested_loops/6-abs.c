@@ -2,8 +2,8 @@
 
 /**
  * _abs - Absolute value
- * g: Arguement in _abs
- * Return: Returns the absolute value 
+ * @g: Arguement in _abs
+ * Return: Returns the absolute value
  */
 
 int _abs(int g)
