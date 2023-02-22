@@ -21,8 +21,8 @@ void times_table(void)
 				h = (c - g) / 10;
 				_putchar(44);
 				_putchar(32);
-				_putchar(g + '0');
 				_putchar(h + '0');
+				_putchar(g + '0');
 			}
 			else
 			{
