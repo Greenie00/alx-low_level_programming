@@ -3,7 +3,9 @@
 /**
  * print_sign - print sign depending on the ineger value of n
  *
- * Result: Returns 1 if n is > 0, 0 if n = 0 and -1 if n is < 0
+ * @n: Argument
+ *
+ * Return: Returns 1 if n is > 0, 0 if n = 0 and -1 if n is < 0
  */
 
 int print_sign(int n)
