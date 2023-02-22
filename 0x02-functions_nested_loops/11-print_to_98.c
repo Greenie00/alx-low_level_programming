@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - PRint numbers upward or downward to 98
@@ -12,13 +13,13 @@ void print_to_98(int n)
 {
 	while (n < 98)
 	{
-		_putchar("%d, ", n);
+		printf("%d, ", n);
 		n++;
 	}
 
-	else if (n > 98)
+	else
 	{
-		_putchar("%d, ", n);
+		printf("%d, ", n);
 		n--;
 	}
 	return (n);
