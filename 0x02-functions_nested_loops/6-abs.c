@@ -12,7 +12,7 @@ int _abs(int g)
 	{
 		int absolute_val;
 		absolute_val = g * -1;
-		return (absolute_value);
+		return (absolute_val);
 	}
 	return (g);
 }
