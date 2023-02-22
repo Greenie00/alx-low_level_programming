@@ -3,7 +3,6 @@
 /**
  * jack_bauer - Tick Tock Jack
  *
- * @g: Argument that Jack had
  *
  * Return: 0
  */
