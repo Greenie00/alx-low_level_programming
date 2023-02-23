@@ -2,16 +2,13 @@
 #include "main.h"
 /**
  * print_remaining_days - prints how many fays there are left in ayear
- *
  * @month: month
  * @year: year
  * @day: day
- *
  * Return: void
  */
 void print_remaining_days(int month, int day, int year)
 {
-
 	if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
 	{
 		if (month > 2 && day >= 60)
