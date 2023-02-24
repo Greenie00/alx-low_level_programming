@@ -16,7 +16,7 @@ void print_line(int n)
 		_putchar('\n');
 	}
 
-	else if (g != 0 || or g > 0)
+	else if (g != 0 || g > 0)
 	{
 		for (g = 0; g < n; g++)
 		{
