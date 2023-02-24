@@ -13,7 +13,7 @@ void more_numbers(void)
 
 	while (x < 11)
 	{
-		for (g < 15)
+		while (g < 15)
 		{
 			_putchar(g + '0');
 			g++;
