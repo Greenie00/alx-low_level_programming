@@ -12,12 +12,12 @@ void print_most_numbers(void)
 
 	while (g < 10)
 	{
-		_putchar(x + '0')
+		_putchar(g + '0');
 		g++;
 		if (g == 2 || g == 4)
 		{
 			continue;
 		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
