@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	while (g < 10)
 	{
-		putchar("%d");
+		_putchar("%d", g);
 		g++;
 	}
 	_putchar("\n");
