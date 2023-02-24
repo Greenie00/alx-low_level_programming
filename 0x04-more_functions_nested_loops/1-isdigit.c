@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isdigit - prints a digit between 0-9
+ * _isdigit - prints a digit between 0-9
  *
  * @c: argument passed in isdigit
  * Return: 0
@@ -9,7 +9,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= 0 && c < 10)
 	{
 		return(1);
 	}
