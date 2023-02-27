@@ -15,12 +15,12 @@ void print_rev(char *s)
 
 	while (s[g] != '\0')
 	{
-		c++;
+		g++;
 	}
 
-	for (c -= 1; c >= 0; c--)
+	for (g -= 1; g >= 0; g--)
 	{
-		_putchar(s[c]);
+		_putchar(s[g]);
 	}
 
 	_putchar('\n');
