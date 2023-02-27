@@ -7,7 +7,7 @@
  * Return: A string
  */
 
-_puts(char *str)
+int _puts(char *str)
 {
 	for (; *str != 0; *str++)
 	{
