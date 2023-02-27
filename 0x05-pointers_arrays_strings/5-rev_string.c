@@ -12,6 +12,7 @@ void rev_string(char *s)
 {
 	int x = 0;
 	int y =0;
+	char g;
 
 	while (s[x++])
 	{
