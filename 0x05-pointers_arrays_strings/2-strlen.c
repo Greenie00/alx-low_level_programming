@@ -4,7 +4,7 @@
  * _strlen - Retuens string length of character
  *
  * @s: Argument
- * Return: Length of string 
+ * Return: Length of string
  */
 
 int _strlen(char *s)
@@ -15,5 +15,5 @@ int _strlen(char *s)
 	{
 		length_of_s++;
 	}
-	return(length_of_s);
+	return (length_of_s);
 }
