@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - Converts strings to integers 
+ * _atoi - Converts strings to integers
  *
  * @s: Argument
  * Return: 0
@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int min = 1;
 	int l = 0;
 
-	while (s[c] == 45)
+	while (s[c])
 	{
 		if (s[c] == 45)
 		{
@@ -36,5 +36,4 @@ int _atoi(char *s)
 	}
 	n *= min;
 	return (n);
-	
 }
