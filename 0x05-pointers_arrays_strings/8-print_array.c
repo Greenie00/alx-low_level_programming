@@ -3,8 +3,8 @@
 /**
  * print_array - Print an array
  *
- * @n: Argument
- * @a: Swcond Argument
+ * @a: First Argument
+ * @n: Second Argument
  * Return: An array of numbers
  */
 
