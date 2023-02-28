@@ -4,6 +4,7 @@
  * print_array - Print an array
  *
  * @n: Argument
+ * @a: Swcond Argument
  * Return: An array of numbers
  */
 
