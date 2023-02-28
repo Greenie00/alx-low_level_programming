@@ -16,19 +16,24 @@ int _atoi(char *s)
 
 	while (s[c] == 45)
 	{
-		min *= -1;
-	}
+		if (s[c] == 45)
+		{
+			min *= -1;
+		}
 
-	while (s[c] >= 48 && s[c] <= 57)
-	{
-		l = 1;
-		n = (n * 10) + (s[c] - '0');
+		while (s[c] >= 48 && s[c] <= 57)
+		{
+			l = 1;
+			n = (n * 10) + (s[c] - '0');
+			c++;
+		}
+
+		if (l == 1)
+		{
+			break;
+		}
 		c++;
+		n *= min;
+		return (n);
 	}
-
-	if (l == 1)
-	{
-		break;
-	}
-	c++;
 }
