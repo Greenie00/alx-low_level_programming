@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 		stlen++;
 	}
 
-	for (i = 0; src[i] != 0;)
+	for (i = 0; src[i] != 0; i++)
 	{
 		dest[stlen] = src[i];
 		stlen++;
