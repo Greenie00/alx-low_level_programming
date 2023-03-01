@@ -6,6 +6,8 @@
  * @dest: Argument
  * @src: Argiment
  * @n: Argument
+ *
+ * Return: 0
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -20,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (index = 0; src[index] && index < n; index++)
 	{
-		dest[len_of_dest] = src[index];
+		dest[len_of_dest++] = src[index];
 	}
 	return (dest);
 }
