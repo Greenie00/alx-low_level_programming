@@ -26,5 +26,5 @@
 		stlen++;
 	}
 	dest[stlen] = '\0';
-	return (dest)
+	return (dest);
 }
