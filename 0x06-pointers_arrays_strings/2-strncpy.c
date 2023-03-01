@@ -15,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 	int index = 0;
 	int len_of_src = 0;
 
-	while(src[index++])
+	while (src[index++])
 	{
 		len_of_src++;
 	}
@@ -31,5 +31,4 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 
 	return (dest);
-}
-		
+}	
