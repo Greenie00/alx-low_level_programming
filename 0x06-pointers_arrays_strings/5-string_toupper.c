@@ -3,23 +3,22 @@
 /**
  * *string_toupper - Convert strings from lower to upper case
  *
- * @x: 
+ * @x: Argument
  * Return: 0
  */
 
-char *string_toupper(char *x)
+char *string_toupper(char *str)
 {
 	int index = 0;
 
-	while (x[index])
+	while (str[index])
 	{
-		if (x[index] >= 'a' & x[index] <= 'z')
+		if (str[index] >= 'a' && str[index] <= 'z')
 		{
-			x[index] -= 32;
+			str[index] -= 32;
 			index++;
 		}
 
-	return (x);
-	
+	return (str);
 	}
 }
