@@ -4,7 +4,7 @@
  * *cap_string - Make strings Capital letters
  *
  * @str: Argument
- * Result: Returns strings in capital leteres
+ * Return: Returns strings in capital leteres
  */
 
 char *cap_string(char *str)
