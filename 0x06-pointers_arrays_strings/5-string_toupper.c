@@ -3,7 +3,7 @@
 /**
  * *string_toupper - Convert strings from lower to upper case
  *
- * @x: Argument
+ * @str: Argument
  * Return: 0
  */
 
