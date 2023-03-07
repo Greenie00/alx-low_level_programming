@@ -7,7 +7,7 @@
  * @b: Seconf argument
  * @n: third argument
  *
- * Result: Copies contents of b into s
+ * Return: Copies contents of b into s
  */
 
 char *_memset(char *s, char b, unsigned int n)
