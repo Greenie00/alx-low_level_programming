@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memset - Creating  a replica
+ * _memset - Creating  a replica
  *
  * @s: First argument
  * @b: Seconf argument
