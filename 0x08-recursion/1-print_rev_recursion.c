@@ -9,7 +9,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	for (*s == '\0')
+	if (*s == '\0')
 	{
 		return;	
 	}
@@ -19,4 +19,3 @@ void _print_rev_recursion(char *s)
 	s--;
 	_print_rev_recursion(*s);;
 }
-
