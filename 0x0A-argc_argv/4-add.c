@@ -6,7 +6,7 @@
  * main - Add all interger values
  *
  * @argc: First argument
- * @argv: Second 
+ * @argv: Second
  *
  * Return: alwys 0
  */
