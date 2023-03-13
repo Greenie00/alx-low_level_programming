@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * strdup - Memory allocation 
+ * _strdup - Memory allocation
  *
  * @str: Argument
  *
