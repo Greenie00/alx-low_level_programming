@@ -8,7 +8,7 @@
  * @size: Site size
  * @c: Srcond argument
  *
- * Return always 0
+ * Return: always 0
  */
 
 char *create_array(unsigned int size, char c)
