@@ -5,8 +5,7 @@
 /**
  * argstostr - function that concatenates all the arguments of your program
  * @ac: First argument
- * @av: Second argument 
- *
+ * @av: Second argument
  * Return: Always 0
  */
 
@@ -20,7 +19,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-
 	while (i < ac)
 	{
 		while (av[i][j])
@@ -32,7 +30,6 @@ char *argstostr(int ac, char **av)
 		j = 0;
 		i++;
 	}
-
 	s = malloc((sizeof(char) * ch) + ac + 1);
 
 	i = 0;
@@ -44,14 +41,12 @@ char *argstostr(int ac, char **av)
 			j++;
 			k++;
 		}
-
 		s[k] = '\n';
 
 		j = 0;
 		k++;
 		i++;
 	}
-
 	k++;
 	s[k] = '\0';
 	return (s);
