@@ -26,7 +26,7 @@ char *argstostr(int ac, char **av)
 		while (av[i][j])
 		{
 			ch++;
-			j++
+			j++;
 		}
 
 		j = 0;
