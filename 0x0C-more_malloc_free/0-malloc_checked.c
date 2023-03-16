@@ -3,19 +3,21 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - Check malloc
+ * *malloc_checked - Check malloc
+ *
  * @b: Argument
- * Return: Always 0
+ *
+ * Return: Pointer to allocated memory
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *g;
+	void *p;
 
-	g = malloc(b);
+	p = malloc(b);
 
-	if (g == NULL)
+	if (p == NULL)
 		exit(98);
 
-	return (g);
+	return (p);
 }
