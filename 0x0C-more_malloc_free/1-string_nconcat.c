@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 		i++;
 
-	while (s1[k])
+	while (s2[k])
 		k++;
 
 	if (n >= k)
