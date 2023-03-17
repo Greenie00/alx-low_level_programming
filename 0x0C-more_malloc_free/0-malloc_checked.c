@@ -1,6 +1,6 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "msin.h"
 
 /**
  * *malloc_checked - Check malloc
