@@ -8,12 +8,15 @@
  * @s1: First argument
  * @s2: Second argument
  * @n: Third argument
+ *
+ * Return: Always 0
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i = 0, j = 0;
 	unsigned int k = 0, l = 0;
+	char *str;
 
 	if (s1 == NULL)
 		s1 = "";
