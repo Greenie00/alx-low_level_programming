@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * sum_them_all - Function name
+ * @n: argument
+ *
+ * Return: Sum of all
+ */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list list;
