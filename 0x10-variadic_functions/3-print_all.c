@@ -6,8 +6,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list list;
-	unsigned c = 0, i = 0;
-	unsigned j;
+	unsigned int c = 0, i = 0, j;
 	const char t_arg[] = "cifs";
 
 	va_stat(list, format);
@@ -21,10 +20,8 @@ void print_all(const char * const format, ...)
 				printf(", ");
 				break;
 			}
-
 			j++;
 		}
-
 		switch (format[i])
 		{
 			case 'c':
@@ -44,9 +41,7 @@ void print_all(const char * const format, ...)
 					break;
 				}
 				printf("%s", str);
-		}
-		i++;
+		} i++;
 	}
-	print("\n");
-	va_end(list);
+	print("\n"), va_end(list);
 }
