@@ -3,13 +3,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * print_all - prints all
+ * @format: arg
+ * Return: 0
+ */
+
 void print_all(const char * const format, ...)
 {
 	va_list list;
+	char *str;
 	unsigned int c = 0, i = 0, j;
 	const char t_arg[] = "cifs";
 
-	va_stat(list, format);
+	va_start(list, format);
 	while (format && format[i])
 	{
 		j = 0;
@@ -27,7 +34,7 @@ void print_all(const char * const format, ...)
 			case 'c':
 				printf("%c", va_arg(list, int)), c = 1;
 				break;
-			case 's':
+			case 'i':
 				printf("%d", va_arg(list, int)), c = 1;
 				break;
 			case 'f':
@@ -43,5 +50,5 @@ void print_all(const char * const format, ...)
 				printf("%s", str);
 		} i++;
 	}
-	print("\n"), va_end(list);
+	printf("\n"), va_end(list);
 }
