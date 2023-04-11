@@ -12,7 +12,7 @@
  */
 
 ssize_t read_textfile(const char *filename,
-	       	size_t letters)
+		size_t letters)
 {
 	char *fp_ptr;
 	int x;
@@ -38,4 +38,4 @@ ssize_t read_textfile(const char *filename,
 	free(fp_ptr);
 
 	return (sp_2);
-}	
+}

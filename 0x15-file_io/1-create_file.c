@@ -32,6 +32,6 @@ int create_file(const char *filename,
 	if (x == -1)
 		return (-1);
 
-	close (fp_ptr);
+	close(fp_ptr);
 	return (1);
 }
