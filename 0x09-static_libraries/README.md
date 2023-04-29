@@ -1,1 +1,0 @@
-Tasks on Static libraries
